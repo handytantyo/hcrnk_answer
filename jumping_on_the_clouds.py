@@ -4,7 +4,6 @@ def jumpingOnClouds(c):
     result = 1
 
     while index < angka:
-        print(index)
         try:
             if c[index+1] == 0 and (index+1) == (angka-1):
                 result+=1
